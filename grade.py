@@ -1,6 +1,6 @@
 def grades(nilai):
-	nama = input("Masukkan nama: ")
-	jurusan = input("Masukkan Jurusan: ")
+	nama = str(input("Masukkan nama: "))
+	jurusan = str(input("Masukkan Jurusan: "))
 	if nilai >= 85:
 		grade = "A"
 	elif nilai >= 75:
